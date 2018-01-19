@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.intered.project.MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/dollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Dollars" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dollar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Convert"/>
+
+    <TextView
+        android:id="@+id/toEuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="€"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_below="@+id/dollar"
+        android:layout_alignLeft="@+id/dollar"
+        android:layout_alignStart="@+id/dollar"
+        android:layout_alignRight="@+id/dollar"
+        android:layout_alignEnd="@+id/dollar" />
+
+
+</RelativeLayout>
